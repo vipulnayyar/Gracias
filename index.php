@@ -1,4 +1,3 @@
-
 <center>
 <h1>
 Currently, this app is in <i> Alpha </i> Phase. <br/>
@@ -191,6 +190,6 @@ else $msg1='Thanks for your post !! .... :-)....................................
 
 
 
-//file_get_contents("pacific-shelf-6449.herokuapp.com");
+
 
 ?>
