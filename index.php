@@ -1,5 +1,4 @@
 
-
 <center>
 <h1>
 Currently, this app is in <i> Alpha </i> Phase. <br/>
@@ -92,7 +91,7 @@ $access_token ="";
 $facebook->setAccessToken($mytoken);
 
 
-/*
+
 $fql="SELECT post_id, actor_id, target_id, message FROM stream WHERE filter_key = 'others' AND source_id = me() AND target_id=me() AND created_time>1350691200 LIMIT 500";
 
 $ret_obj = $facebook->api(array(
@@ -127,7 +126,7 @@ if((strpos($post['message'], $message[$j++]))|| (  strpos($post['message'], $mes
 
 }
 
-/*
+
 if ((strpos($post['message'], 'happy') )|| (strpos($post['message'], 'birthday') ) ||  ( strpos($post['message'], 'wishes') ) || 
   (strpos($post['message'], 'hapy') ) ||   (strpos($post['message'], 'bday')) || (strpos($post['message'], 'b\'day') ) ||
   (strpos($post['message'], 'party')) || (strpos($post['message'], 'vipul')) ||   (strpos($post['message'], 'wish') )|| 
@@ -190,7 +189,7 @@ else $msg1='Thanks for your post !! .... :-)....................................
 
 }
 
-*/
+
 
 //file_get_contents("pacific-shelf-6449.herokuapp.com");
 
