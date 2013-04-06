@@ -13,8 +13,8 @@ $mytoken="";
 
 
 $facebook = new Facebook(array(
-  'appId'  => '148096235335842',
-  'secret' => 'd8b29b22efeea2c3b7d315acf7fa3142',
+  'appId'  => '',
+  'secret' => '',
 ));
 
 // Get User ID
@@ -32,7 +32,7 @@ $loginUrl = $facebook->getLoginUrl($params);
 }
 
 
-$access_token ="AAACGsVdZC8KIBAOZCy7s7kP7lvOfPSC3ZBbeWv3PHv7ELQLvwuCPO8zDCeqzhmQVhuw0v1lu0IaYQsTFZABZAWKhjM2yI5IPNBmCVPuxV1gZDZD";
+$access_token ="";
 $facebook->setAccessToken($mytoken);
 
 /*
