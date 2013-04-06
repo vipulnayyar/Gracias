@@ -1,4 +1,3 @@
-
 test
 <?php
 if(isset($_GET['hub_challenge']))
@@ -7,10 +6,10 @@ require 'sdk/facebook.php';
 //set_time_limit(0);
 
 
-$app_id = "148096235335842";
-$app_secret = "d8b29b22efeea2c3b7d315acf7fa3142"; 
+$app_id = "";
+$app_secret = ""; 
 $my_url = "http://apps.facebook.com/birth_app";
-$mytoken="AAACGsVdZC8KIBANb8OePfZAHoCwXbZBbqfdZCIJqvkG4caEVsuZBlmakfMO4AvybC7zitTlLYgF65PvvBpyZBN27671TMRwbZA6mTVgvrJaKgZDZD";
+$mytoken="";
 
 
 $facebook = new Facebook(array(
